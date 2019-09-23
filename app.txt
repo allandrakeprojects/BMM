@@ -1,0 +1,44 @@
+RESTful API
+/users/create
+/users/read
+/assessment/create
+/assessment/show
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scooters
+How to clean carburetor https://www.youtube.com/watch?v=KayiOqn6Nhg
+How to change tires https://www.youtube.com/watch?v=8AZhTvq4uwU
+How to change chain https://www.youtube.com/watch?v=PTn9PVBGwV4
+How to change oil https://www.youtube.com/watch?v=sOrSC2kfaN8
+
+Sports
+How to clean carburetor https://www.youtube.com/watch?v=oWlZdzL2NAY
+How to change tires https://www.youtube.com/watch?v=c9iTbHgNXbU
+How to change chain https://www.youtube.com/watch?v=cGxsyhzMqe4
+How to change oil https://www.youtube.com/watch?v=IyWMtjpeumk
+
+Underbone
+How to clean carburetor https://www.youtube.com/watch?v=854B1jrSGiw
+How to change tires https://www.youtube.com/watch?v=4D_XDRLZeuI
+How to change chain https://www.youtube.com/watch?v=-cClv9GU178
+How to change oil https://www.youtube.com/watch?v=5EuEh1hZqZI
+
+How to clean carburetor 
+How to change tires 
+How to change chain 
+How to change oil 

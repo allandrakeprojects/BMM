@@ -1,0 +1,239 @@
+/* 
+ * 3D Model
+ */
+.--wrapper {
+    position: relative;
+}
+
+.--wrapper .header {
+    height: 45px;
+    width: 100%;
+    background: #F8F9FC;
+    position: absolute;
+}
+
+.--wrapper .footer {
+    height: 50px;
+    width: 100%;
+    background: #F8F9FC;
+    position: absolute;
+    /* top: 22px; */
+    display: block;
+    bottom: 5px;
+}
+
+/* 
+ * Rotate Notice 
+ */
+.phone {
+    height: 50px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    animation: rotate 1.5s ease-in-out infinite alternate;
+  }
+  
+  .message {
+    color: white;
+    font-size: 1em;
+    margin-top: 40px;
+    /* display: none; */
+  }
+  
+  @keyframes rotate {
+    0% {
+          transform: rotate(0deg)
+      }
+      50% {
+          transform: rotate(-90deg)
+      }
+      100% {
+          transform: rotate(-90deg)
+      }
+  }
+  
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    .phone, .message {
+      display: block;
+    }
+  }
+
+  /* 
+   * Assessment 
+   */
+   .row:after,
+        .hitbox:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+          [class^="col-"] {
+            float: left;
+          }
+
+          .col-full {
+            width: 100%;
+          }
+
+          .col-half {
+            width: 40%;
+          }
+
+          .col-quarter {
+            width: 24%;
+            margin: 0.5%;
+            height: 165px;
+            border: 2px dotted #5FBEAA;
+          }
+
+          .hitbox {
+            position: relative;
+          }
+
+          .hitbox:before {
+            display: block;
+            content: "";
+            padding-top: 100%;
+          }
+
+          .dropzone {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+
+          .answer {
+            width: 60%;
+            height: 25%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+          }
+
+          .answer.show {
+        visibility: visible;
+        max-width: 130px;
+        width: 100%;
+        height: 50px;
+        position: absolute;
+      }
+
+          .answer.hide {
+            visibility: hidden;
+          }
+
+          .dropzone:not(.container) .icon {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+          }
+
+          .icon {
+            width: 24%;
+            margin: 0.5%;
+            height: 165px;
+            border: 1px solid #5FBEAA;
+          }
+
+          #dropzone-apple {
+            background-image: url("../img/Assessment/a-bg.png");
+          }
+
+          #dropzone-bananas {
+            background-image: url("../img/Assessment/b-bg.png");
+          }
+
+          #dropzone-carrot {
+            background-image: url("../img/Assessment/c-bg.png");
+          }
+
+          #dropzone-cherries {
+            background-image: url("../img/Assessment/d-bg.png");
+          }
+
+          #dropzone-grapes {
+            background-image: url("../img/Assessment/e-bg.png");
+          }
+
+          #dropzone-lemon {
+            background-image: url("../img/Assessment/f-bg.png");
+          }
+
+          #dropzone-pear {
+            background-image: url("../img/Assessment/g-bg.png");
+          }
+
+          #dropzone-strawberry {
+            background-image: url("../img/Assessment/h-bg.png");
+          }
+
+          #dropzone-tomato {
+            background-image: url("../img/Assessment/i-bg.png");
+          }
+
+          #dropzone-watermelon {
+            background-image: url("../img/Assessment/j-bg.png");
+          }
+
+          #dropzone-k {
+            background-image: url("../img/Assessment/k-bg.png");
+          }
+
+          #dropzone-l {
+            background-image: url("../img/Assessment/l-bg.png");
+          }
+
+          #dropzone-m {
+            background-image: url("../img/Assessment/m-bg.png");
+          }
+
+          #dropzone-n {
+            background-image: url("../img/Assessment/n-bg.png");
+          }
+
+          #dropzone-o {
+            background-image: url("../img/Assessment/o-bg.png");
+          }
+
+          #dropzone-p {
+            background-image: url("../img/Assessment/p-bg.png");
+          }
+
+          .instructions {
+            text-align: center;
+          }
+
+          @media(max-width: 799px) {
+            #dropzone-container {
+              padding-left: 0 !important;
+              padding-right: 0 !important
+            }
+            
+            .col-quarter {
+              width: 24%;
+            }
+
+            .icon {
+              width: 24%;
+            }
+
+            .col-half.hitbox {
+              padding-top: 100%;
+            }
+
+            .answer {
+              width: 85%;
+            }
+
+            .btn-submit-assessment {
+              margin-top: 215px;
+            }
+          }
