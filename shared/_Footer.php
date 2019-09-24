@@ -54,7 +54,7 @@
       <!-- Custom scripts for all pages-->
       <script src="js/custom.js"></script>
       <script src="js/bmm.min.js"></script>
-
+      <script src="js/DragDropTouch.js"></script>
 </body>
 
 </html>

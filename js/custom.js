@@ -36,23 +36,99 @@ function setNavigation() {
 }
 
 function getOrientation(){
-    if ($(window).width() < 700) {
-        window.addEventListener("orientationchange", function() {
-            if(window.orientation == 0) 
-                enableRotationNotice();
-            else
-                disableRotationNotice();
-        }, true);
-    
-        $(window).on("deviceorientation", function( event ) {
-            if (window.matchMedia("(orientation: portrait)").matches) 
-                enableRotationNotice();
-            if (window.matchMedia("(orientation: landscape)").matches)
-                disableRotationNotice();
-       });
-    } else{
+  if ($(window).width() < 700) {
+    switch (window.orientation) {
+      case 0:
+        // Portrait
+        enableRotationNotice();
+        break;
+      case 180:
+        // Portrait (Upside-down)
+        enableRotationNotice();
+        break;
+      case -90:
+        // Landscape (Clockwise)
         disableRotationNotice();
+        break;  
+      case 90:
+        // Landscape  (Counterclockwise)
+        disableRotationNotice();
+        break;
     }
+
+    $(window).on("orientationchange",function(){
+      switch (window.orientation) {
+        case 0:
+          // Portrait
+          enableRotationNotice();
+          break;
+        case 180:
+          // Portrait (Upside-down)
+          enableRotationNotice();
+          break;
+        case -90:
+          // Landscape (Clockwise)
+          disableRotationNotice();
+          break;  
+        case 90:
+          // Landscape  (Counterclockwise)
+          disableRotationNotice();
+          break;
+      }
+    });    
+  } else {
+    disableRotationNotice();
+  }
+
+
+
+
+
+
+
+
+
+
+
+  // $(window).on("deviceorientation", function( event ) {
+  //   if (window.matchMedia("(orientation: portrait)").matches) 
+  //     alert('0');
+  //       // enableRotationNotice();
+  //   if (window.matchMedia("(orientation: landscape)").matches)
+  //     alert('1');
+  //       // disableRotationNotice();
+  // });
+
+
+  // $(window).bind('orientationchange resize', function(event){
+  //   alert(event.orientation);
+  //   if(event.orientation) {
+  //     if(event.orientation == 'portrait') {
+  //       alert('portrait');
+  //     } else if (event.orientation == 'landscape') {
+  //       alert('landscape');
+  //     } 
+  //   } else {
+  //     alert('pc');
+  //   }
+  // });
+
+  // $(window).trigger('orientationchange');
+    //     // window.addEventListener("orientationchange", function() {
+    //     //     if(window.orientation == 0) {
+    //     //       this.alert();
+    //     //       enableRotationNotice();
+    //     //     }
+    //     //     else {
+    //     //       disableRotationNotice();
+    //     //     }
+    //     //     alert(screen.orientation);
+    //     // }, false);
+
+
+        
+
+    // } else{
 }
 
 function enableRotationNotice(){
