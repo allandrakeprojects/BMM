@@ -167,9 +167,9 @@ function loginAccount() {
             
             if(status == '"success"'){
                 if(role == '"Administrator"'){
-                    location.href = "/assessment_info.php"
+                    location.href = "/bmm/assessment_info.php"
                 } else {
-                    location.href = "/index.php"
+                    location.href = "/bmm/index.php"
                 }
             } else {
                 alert("Password won't match to email.");

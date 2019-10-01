@@ -7,22 +7,17 @@
       <h1 class="h3 mb-0 text-gray-800">Motorcycles</h1>
     </div>
 
-    <!-- SCOOTERS -->
-    <h1 class="h2 mb-0 text-gray-800">Scooters</h1>
     <!-- Content Row -->
     <div class="row">
 
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-left-primary shadow h-100 py-2">
-          <img src="img/BeAT-Street-Grey.png" class="img-responsive">
+          <img src="img/motorcycle.jpg" class="img-responsive" style="height: 100%;">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">The New BeAT Street (STD)</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P66,400</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#scooters"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
+                <div class="h5 mb-0 font-weight-bold text-gray-800">KTM RC8</div>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#manual">MENU</a>
               </div>
             </div>
           </div>
@@ -31,15 +26,12 @@
 
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/BeAT-P-Black.png" class="img-responsive">
+          <img src="img/motorbike.jpg" class="img-responsive" style="height: 100%;">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New BeAT Premium (ISS/CBS)</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P69,900</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#scooters"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
+                <div class="h5 mb-0 font-weight-bold text-gray-800">Wave RSX 2017</div>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#semiManual">MENU</a>
               </div>
             </div>
           </div>
@@ -48,32 +40,12 @@
 
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/BeAT-FS-Blue.png" class="img-responsive">
+          <img src="img/scooter.jpg" class="img-responsive" style="height: 100%;">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New BeAT Fashion Sport (STD)</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P66,400</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#scooters"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/CLICK125_Red.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New CLICK125i</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P76,900</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#scooters"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
+                <div class="h5 mb-0 font-weight-bold text-gray-800">Vespa</div>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#automatic">MENU</a>
               </div>
             </div>
           </div>
@@ -82,163 +54,35 @@
     </div>
     <!-- /.container-fluid -->
 
-    <!-- SPORTS -->
-    <h1 class="h2 mb-0 text-gray-800">Sports</h1>
-    <!-- Content Row -->
-    <div class="row">
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-primary shadow h-100 py-2">
-          <img src="img/XR150L.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">The All-New XR150L
-                </div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P89,900</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#sports"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/CRF150L.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New CRF150L</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P134,900</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#sports"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/CRF250L.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New CRF250L</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P232,900</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#sports"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/CRF250-Rally.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New CRF250 Rally</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P76,900</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#sports"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.container-fluid -->
-
-    <!-- UNDERBONE -->
-    <h1 class="h2 mb-0 text-gray-800">Underbone</h1>
-    <!-- Content Row -->
-    <div class="row">
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-primary shadow h-100 py-2">
-          <img src="img/RS150R.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">The New RS150R</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P97,300</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#underbone"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/RS125-Fi.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New RS125 Fi</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P97,300</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#underbone"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/XRM125-Motard.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The New XRM125 Motard</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P72,600</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#underbone"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/XRM125-DS.png" class="img-responsive">
-          <div class="card-body">
-            <div class="row no-gutters align-items-center">
-              <div class="col mr-2">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">The All-New XRM125 DS</div>
-                <div class="h5 mb-0 font-weight-bold text-gray-800">SRP P66,900</div>
-              </div>
-              <div class="col-auto">
-                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#underbone"><i class="fas fa-info-circle fa-2x text-gray-300"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.container-fluid -->
-
-    <!-- Modal Scooters -->
-    <div class="modal fade" id="scooters" tabindex="-1" role="dialog" aria-labelledby="scootersLabel" aria-hidden="true">
+    <!-- Modal manual -->
+    <div class="modal fade" id="manual" tabindex="-1" role="dialog" aria-labelledby="manualLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="scootersLabel">Video Tutorial</h5>
+            <h5 class="modal-title" id="manualLabel">Video Tutorial</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <a href="https://www.youtube.com/watch?v=3VGAhB6pzSc" target="_blank">How to clean Carburetor</a><br>
+            <a href="https://www.youtube.com/watch?v=7M3snEUkwH0" target="_blank">How to change Tires</a><br>
+            <a href="https://www.youtube.com/watch?v=02JKM1aWmxk" target="_blank">How to change Chain</a><br>
+            <a href="https://www.youtube.com/watch?v=62PkWF3fWb0" target="_blank">How to change Oil</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal semiManual -->
+    <div class="modal fade" id="semiManual" tabindex="-1" role="dialog" aria-labelledby="semiManualLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="semiManualLabel">Video Tutorial</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -255,45 +99,22 @@
         </div>
       </div>
     </div>
-
-    <!-- Modal Sports -->
-    <div class="modal fade" id="sports" tabindex="-1" role="dialog" aria-labelledby="sportsLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="sportsLabel">Video Tutorial</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <a href="https://www.youtube.com/watch?v=oWlZdzL2NAY" target="_blank">How to clean Carburetor</a><br>
-            <a href="https://www.youtube.com/watch?v=c9iTbHgNXbU" target="_blank">How to change Tires</a><br>
-            <a href="https://www.youtube.com/watch?v=cGxsyhzMqe4" target="_blank">How to change Chain</a><br>
-            <a href="https://www.youtube.com/watch?v=IyWMtjpeumk" target="_blank">How to change Oil</a>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
     
-    <!-- Modal Underbone -->
-    <div class="modal fade" id="underbone" tabindex="-1" role="dialog" aria-labelledby="underboneLabel" aria-hidden="true">
+    <!-- Modal automatic -->
+    <div class="modal fade" id="automatic" tabindex="-1" role="dialog" aria-labelledby="automaticLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="underboneLabel">Video Tutorial</h5>
+            <h5 class="modal-title" id="automaticLabel">Video Tutorial</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <a href="https://www.youtube.com/watch?v=854B1jrSGiw" target="_blank">How to clean Carburetor</a><br>
-            <a href="https://www.youtube.com/watch?v=4D_XDRLZeuI" target="_blank">How to change Tires</a><br>
-            <a href="https://www.youtube.com/watch?v=-cClv9GU178" target="_blank">How to change Chain</a><br>
-            <a href="https://www.youtube.com/watch?v=5EuEh1hZqZI" target="_blank">How to change Oil</a>
+            <a href="https://www.youtube.com/watch?v=OwpqfAK3HTM" target="_blank">How to clean Carburetor</a><br>
+            <a href="https://www.youtube.com/watch?v=kxqbFHRe6nE" target="_blank">How to change Tires</a><br>
+            <a href="https://www.youtube.com/watch?v=MHqlA7k00EM" target="_blank">How to change Chain</a><br>
+            <a href="https://www.youtube.com/watch?v=bJ2Y8Ux7E8s" target="_blank">How to change Oil</a>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

@@ -19,6 +19,6 @@
     // Finally, destroy the session.
     session_destroy();
 
-    header("Location: /login.php");
+    header("Location: /bmm/login.php");
     die();
 ?>
