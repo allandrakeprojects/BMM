@@ -216,15 +216,19 @@
               padding-left: 0 !important;
               padding-right: 0 !important
             }
+
+            .mobile-resize {
+              font-size: 25px;
+            }
             
             .col-quarter {
-              width: 15%;
+              width: 11%;
               height: 15%;
             }
 
             .icon {
-              width: 15%;
-              height: 15%;
+              width: 10%;
+              height: 10%;
             }
 
             .col-half.hitbox {

@@ -12,7 +12,7 @@
     ?>
         <div class="row">
           <div class="col-md-6" style="text-align: center">
-            <h2>Drop your answer here.</h2>
+            <h2 class="mobile-resize">Drop your answer here.</h2>
             <div id="dropzone-holder" class="col-half" style="width: 100%; background-color: white; padding: 5px; border-radius: 10px;">
               <div class="col-quarter hitbox">
                 <img class="answer hide" src="img/Assessment/correct-green.png" />
@@ -82,7 +82,7 @@
           </div>
 
           <div class="col-md-6" style="text-align: center">
-            <h2>Answers.</h2>
+            <h2 class="mobile-resize">Answers.</h2>
             <div class="hitbox" >
               <div id="dropzone-container" class="dropzone container" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
                 <img id="icon-apple" class="icon" draggable="true" ondragstart="return start(event)" ondragend="return end(event)" src="img/Assessment/A.png">

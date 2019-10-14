@@ -29,7 +29,7 @@ function setNavigation() {
     .each(function() {
         var link = $(this);
         if (link.get(0).href === location.href) {
-          if(location.href.indexOf("3d-model") != -1){
+          if(location.href.indexOf("3d-model") != -1 || location.href.indexOf("assessment") != -1){
             $("body").toggleClass("sidebar-toggled");
             $(".sidebar").toggleClass("toggled");
             if ($(".sidebar").hasClass("toggled")) {
