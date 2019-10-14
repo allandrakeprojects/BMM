@@ -218,11 +218,13 @@
             }
             
             .col-quarter {
-              width: 24%;
+              width: 15%;
+              height: 15%;
             }
 
             .icon {
-              width: 24%;
+              width: 15%;
+              height: 15%;
             }
 
             .col-half.hitbox {

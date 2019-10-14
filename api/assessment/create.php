@@ -21,6 +21,7 @@
   $data = json_decode(file_get_contents("php://input"));
   $assessment->user_id = $data->user_id;
   $assessment->score = $data->score;
+  $assessment->takes_no = $data->takes_no;
 
   // Create assessment
   if($assessment->create()) {
@@ -30,6 +31,9 @@
     session_start();
     $_SESSION['user_id'] = $data->user_id;
     $_SESSION['score'] = $data->score;
+    $_SESSION['takes_no'] = $data->takes_no;
+    $_SESSION['dummy'] = 'dummy';
+    
   } else {
     echo json_encode(
       array('message' => 'Assessment Not Submitted')

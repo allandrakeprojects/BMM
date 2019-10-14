@@ -22,15 +22,17 @@
     // $assessments_arr['data'] = array();
     while($row = $result->fetch(PDO::FETCH_ASSOC)) {
       extract($row);
-      if($score == null){
-        $score = 'Not Yet Submitted.';
+      if($takes_no == 0){
+        $score = '-';
+        $takes_no = 'Not Yet Submitted.';
       }
       $assessment_item = array(
         'id' => $id,
         'name' => $name,
         'email' => $email,
         'role' => $role,
-        'score' => $score
+        'score' => $score,
+        'takes_no' => $takes_no
       );
       // Push to "data"
       array_push($assessments_arr, $assessment_item);

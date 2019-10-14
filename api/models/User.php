@@ -73,7 +73,7 @@
       $query = 'SELECT *
         FROM ' . $this->table_user . ' LEFT JOIN ' . $this->table_assessment . ' on user.id=assessment.user_id
         WHERE
-          user.email = ?
+          user.email = ? ORDER BY assessment.takes_no desc
         LIMIT 0,1';
 
       // Prepare statement
@@ -97,8 +97,10 @@
         if(strlen($row['user_id']) > 0){
           $_SESSION['user_id'] = $row['user_id'];
           $_SESSION['score'] = $row['score'];
+          $_SESSION['takes_no'] = $row['takes_no'];
         } else {
           $_SESSION['user_id'] = '';
+          $_SESSION['takes_no'] = '0';
         }
         $_SESSION['id'] = $row['id'];
         $_SESSION['name'] = $row['name'];

@@ -8,7 +8,7 @@
     </div>
     
     <?php
-      if($_SESSION['user_id'] == ''){
+      if(!isset($_SESSION['dummy'])){
     ?>
         <div class="row">
           <div class="col-md-6" style="text-align: center">

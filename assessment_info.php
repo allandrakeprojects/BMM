@@ -19,6 +19,7 @@
                         <th>Name</th>
                         <th>Email Address</th>
                         <th>Score (16 points)</th>
+                        <th>No. of Takes</th>
                     </tr>
                     </thead>
                 </table>

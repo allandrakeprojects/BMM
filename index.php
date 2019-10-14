@@ -88,10 +88,13 @@
             </button>
           </div>
           <div class="modal-body">
-            <a href="https://www.youtube.com/watch?v=KayiOqn6Nhg" target="_blank">How to clean Carburetor</a><br>
-            <a href="https://www.youtube.com/watch?v=8AZhTvq4uwU" target="_blank">How to change Tires</a><br>
-            <a href="https://www.youtube.com/watch?v=PTn9PVBGwV4" target="_blank">How to change Chain</a><br>
-            <a href="https://www.youtube.com/watch?v=sOrSC2kfaN8" target="_blank">How to change Oil</a>
+            <a href="https://youtu.be/nfrF7Gr2CN0" target="_blank">Clean Carburetor</a><br>
+            <a href="https://youtu.be/5miwJ67Xnyg" target="_blank">Change Brake Pad</a><br>
+            <a href="https://youtu.be/gVJG-taj6Bc" target="_blank">Chain and Spocket</a><br>
+            <a href="https://youtu.be/htpXdHX04eM" target="_blank">Change Oil</a>
+            <a href="https://youtu.be/yv_KNtV36ts" target="_blank">Change Speed Cable</a>
+            <a href="https://youtu.be/-kASCcYwCVQ" target="_blank">Change front Drumb Break</a>
+            <a href="https://youtu.be/YviF4lNRINI" target="_blank">Change rear Drumb Break</a>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

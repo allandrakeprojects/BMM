@@ -29,8 +29,16 @@ function setNavigation() {
     .each(function() {
         var link = $(this);
         if (link.get(0).href === location.href) {
-            link.addClass("active").parents("li").addClass("active");
-            return false;
+          if(location.href.indexOf("3d-model") != -1){
+            $("body").toggleClass("sidebar-toggled");
+            $(".sidebar").toggleClass("toggled");
+            if ($(".sidebar").hasClass("toggled")) {
+              $('.sidebar .collapse').collapse('hide');
+            };
+          }
+
+          link.addClass("active").parents("li").addClass("active");
+          return false;
         }
     });
 }
@@ -152,7 +160,8 @@ function renderAssessmentScores() {
     columns: [
       { "data": "name" },
       { "data": "email" },
-      { "data": "score" }
+      { "data": "score" },
+      { "data": "takes_no" }
     ]
     
 } );
@@ -180,7 +189,7 @@ function buttonSubmitAssessment(){
       type: 'POST',
       contentType: "application/json",
       dataType: "json",
-      data: JSON.stringify({ user_id: user_id, score: score }),
+      data: JSON.stringify({ user_id: user_id, score: score, takes_no: 1 }),
     }).done(function(data){
         // var result = JSON.stringify(data.message)
         // alert(result)
