@@ -12,10 +12,27 @@
     position: absolute;
 }
 
+.--wrapper .newtabheader {
+    height: 45px;
+    width: 100%;
+    background: #FFF;
+    position: absolute;
+}
+
 .--wrapper .footer {
     height: 50px;
     width: 100%;
     background: #F8F9FC;
+    position: absolute;
+    /* top: 22px; */
+    display: block;
+    bottom: 5px;
+}
+
+.--wrapper .newtabfooter {
+    height: 50px;
+    width: 100%;
+    background: #FFF;
     position: absolute;
     /* top: 22px; */
     display: block;
@@ -215,6 +232,10 @@
             #dropzone-container {
               padding-left: 0 !important;
               padding-right: 0 !important
+            }
+
+            .parts{
+              margin-top: 0 !important; 
             }
 
             .mobile-resize {

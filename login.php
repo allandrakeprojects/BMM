@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>BMM - Login</title>
+  <title>BMM Motors - Login</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -18,6 +18,7 @@
   <!-- Custom styles for this template-->
   <link href="css/bmm.min.css" rel="stylesheet">
 
+  <link rel="shortcut icon" href="../img/logo-mini.png" />
 </head>
 
 <body class="bg-gradient-primary">

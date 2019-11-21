@@ -18,7 +18,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>BMM</title>
+  <title>BMM Motors</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -29,6 +29,8 @@
   <!-- Custom styles for this template-->
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/bmm.min.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="../img/logo-mini.png" />
 
   <!-- DataTables -->
   <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
