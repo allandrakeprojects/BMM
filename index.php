@@ -11,8 +11,8 @@
     <div class="row">
 
       <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-primary shadow h-100 py-2">
-          <img src="img/motorcycle.jpg" class="img-responsive" style="height: 100%;">
+        <div class="card border-left-primary shadow py-2">
+          <img src="img/motorcycle.jpg" class="img-responsive" style="height: 272px; width: auto;">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
@@ -25,12 +25,12 @@
       </div>
 
       <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/motorbike.jpg" class="img-responsive" style="height: 100%;">
+        <div class="card border-left-success shadow py-2">
+          <img src="img/motorbike.jpg" class="img-responsive" style="height: 272px; width: auto;">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
-                <div class="h5 mb-0 font-weight-bold text-gray-800">Wave RSX 2017</div>
+                <div class="h5 mb-0 font-weight-bold text-gray-800">Wave 100</div>
                 <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#semiManual">MENU</a>
               </div>
             </div>
@@ -39,8 +39,8 @@
       </div>
 
       <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card border-left-success shadow h-100 py-2">
-          <img src="img/scooter.jpg" class="img-responsive" style="height: 100%;">
+        <div class="card border-left-success shadow py-2">
+          <img src="img/scooter.jpg" class="img-responsive" style="height: 272px; width: auto;">
           <div class="card-body">
             <div class="row no-gutters align-items-center">
               <div class="col mr-2">
@@ -88,13 +88,8 @@
             </button>
           </div>
           <div class="modal-body">
-            <a href="https://youtu.be/nfrF7Gr2CN0" target="_blank">Clean Carburetor</a><br>
-            <a href="https://youtu.be/5miwJ67Xnyg" target="_blank">Change Brake Pad</a><br>
-            <a href="https://youtu.be/gVJG-taj6Bc" target="_blank">Chain and Spocket</a><br>
-            <a href="https://youtu.be/htpXdHX04eM" target="_blank">Change Oil</a>
-            <a href="https://youtu.be/yv_KNtV36ts" target="_blank">Change Speed Cable</a>
-            <a href="https://youtu.be/-kASCcYwCVQ" target="_blank">Change front Drumb Break</a>
-            <a href="https://youtu.be/YviF4lNRINI" target="_blank">Change rear Drumb Break</a>
+            <a href="https://www.youtube.com/watch?v=NqB30Q-rn4o" target="_blank">Clean Carburetor</a><br>
+            <a href="https://www.youtube.com/watch?v=oYj16FrkOQs" target="_blank">Head and Tail Bulb Replacement</a><br>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
