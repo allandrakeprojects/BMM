@@ -90,6 +90,9 @@
           <div class="modal-body">
             <a href="https://www.youtube.com/watch?v=NqB30Q-rn4o" target="_blank">Clean Carburetor</a><br>
             <a href="https://www.youtube.com/watch?v=oYj16FrkOQs" target="_blank">Head and Tail Bulb Replacement</a><br>
+            <a href="https://youtu.be/D8s76QyM1tw" target="_blank">Battery Replacement</a><br>
+            <a href="https://youtu.be/4A8oveeXH1c" target="_blank">Chain and Sprockets Replacement</a><br>
+            <a href="https://youtu.be/3j-pLTfaWkE" target="_blank">Break Shoe Replacement</a><br>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
