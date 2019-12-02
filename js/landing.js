@@ -93,7 +93,7 @@ function registerAccount() {
         }).done(function(data){
             var result = JSON.stringify(data.message)
             if(result == '"User Created"'){
-                location.href = "/login.php"
+                location.href = "/bmm/login.php"
             }
         });
     })
@@ -167,9 +167,9 @@ function loginAccount() {
             
             if(status == '"success"'){
                 if(role == '"Administrator"'){
-                    location.href = "/assessment_info.php"
+                    location.href = "/bmm/assessment_info.php"
                 } else {
-                    location.href = "/index.php"
+                    location.href = "/bmm/index.php"
                 }
             } else {
                 alert("Password won't match to email.");
