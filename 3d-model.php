@@ -18,7 +18,7 @@
         <div class="col-md-6">
             <div class="--wrapper">
             <div class="header"><h1 class="h5 mt-2 text-gray-800">Honda CB400F</h1></div>
-            <iframe style="border: 3px solid #5FBEAA;" title="A 3D model" width="99%" height="480" src="https://sketchfab.com/models/6a36d2036bc842e6aee5c13cdae37e93/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <iframe style="border: 3px solid #5FBEAA;" title="A 3D model" width="99%" height="480" src="https://sketchfab.com/models/6a81f154bd434873b72348d7885451eb/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <div class="footer"></div>
             </div>
         </div>
